@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  CIS698.m
 //  RubricGradingApp
 //
 //  Created by ghg on 11/18/15.
 //  Copyright © 2015 Mohamed Hassan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CIS698.h"
 
-@interface ViewController : UIViewController
+@implementation CIS698
 
+// Insert code here to add functionality to your managed object subclass
 
 @end
-

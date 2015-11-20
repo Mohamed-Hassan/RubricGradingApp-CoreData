@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController *nav = (UINavigationController *) self.window.rootViewController;
+    CIS698TableViewController *cvtv = (CIS698TableViewController *) [[nav viewControllers]objectAtIndex:0];
+    cvtv.managedObjectContext = self.managedObjectContext;
+    
+    
     return YES;
 }
 

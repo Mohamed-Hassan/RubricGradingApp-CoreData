@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		B1601AB31BFCC04100B2B9D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AB21BFCC04100B2B9D2 /* main.m */; };
 		B1601AB61BFCC04200B2B9D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AB51BFCC04200B2B9D2 /* AppDelegate.m */; };
-		B1601AB91BFCC04200B2B9D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AB81BFCC04200B2B9D2 /* ViewController.m */; };
-		B1601ABC1BFCC04200B2B9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1601ABA1BFCC04200B2B9D2 /* Main.storyboard */; };
 		B1601ABF1BFCC04200B2B9D2 /* RubricGradingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1601ABD1BFCC04200B2B9D2 /* RubricGradingApp.xcdatamodeld */; };
 		B1601AC11BFCC04200B2B9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1601AC01BFCC04200B2B9D2 /* Assets.xcassets */; };
 		B1601AC41BFCC04200B2B9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1601AC21BFCC04200B2B9D2 /* LaunchScreen.storyboard */; };
 		B1601ACF1BFCC04300B2B9D2 /* RubricGradingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601ACE1BFCC04300B2B9D2 /* RubricGradingAppTests.m */; };
 		B1601ADA1BFCC04300B2B9D2 /* RubricGradingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AD91BFCC04300B2B9D2 /* RubricGradingAppUITests.m */; };
+		B1601AE91BFCC6FD00B2B9D2 /* CIS698TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AE81BFCC6FD00B2B9D2 /* CIS698TableViewController.m */; };
+		B1601AEE1BFCC8A300B2B9D2 /* CIS698+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AEB1BFCC8A200B2B9D2 /* CIS698+CoreDataProperties.m */; };
+		B1601AEF1BFCC8A300B2B9D2 /* CIS698.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AED1BFCC8A200B2B9D2 /* CIS698.m */; };
+		B1601AF11BFCDFC100B2B9D2 /* MainRGA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1601AF01BFCDFC100B2B9D2 /* MainRGA.storyboard */; };
+		B1601AF71BFD361B00B2B9D2 /* AddProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1601AF61BFD361B00B2B9D2 /* AddProjectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +43,6 @@
 		B1601AB21BFCC04100B2B9D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1601AB41BFCC04200B2B9D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1601AB51BFCC04200B2B9D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B1601AB71BFCC04200B2B9D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B1601AB81BFCC04200B2B9D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B1601ABB1BFCC04200B2B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1601ABE1BFCC04200B2B9D2 /* RubricGradingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RubricGradingApp.xcdatamodel; sourceTree = "<group>"; };
 		B1601AC01BFCC04200B2B9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1601AC31BFCC04200B2B9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,15 @@
 		B1601AD51BFCC04300B2B9D2 /* RubricGradingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubricGradingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1601AD91BFCC04300B2B9D2 /* RubricGradingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubricGradingAppUITests.m; sourceTree = "<group>"; };
 		B1601ADB1BFCC04300B2B9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1601AE71BFCC6FD00B2B9D2 /* CIS698TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIS698TableViewController.h; sourceTree = "<group>"; };
+		B1601AE81BFCC6FD00B2B9D2 /* CIS698TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIS698TableViewController.m; sourceTree = "<group>"; };
+		B1601AEA1BFCC8A200B2B9D2 /* CIS698+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIS698+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B1601AEB1BFCC8A200B2B9D2 /* CIS698+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIS698+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B1601AEC1BFCC8A200B2B9D2 /* CIS698.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIS698.h; sourceTree = "<group>"; };
+		B1601AED1BFCC8A200B2B9D2 /* CIS698.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIS698.m; sourceTree = "<group>"; };
+		B1601AF01BFCDFC100B2B9D2 /* MainRGA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainRGA.storyboard; sourceTree = "<group>"; };
+		B1601AF51BFD361B00B2B9D2 /* AddProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProjectViewController.h; sourceTree = "<group>"; };
+		B1601AF61BFD361B00B2B9D2 /* AddProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProjectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,10 @@
 		B1601AA51BFCC04100B2B9D2 = {
 			isa = PBXGroup;
 			children = (
+				B1601AEA1BFCC8A200B2B9D2 /* CIS698+CoreDataProperties.h */,
+				B1601AEB1BFCC8A200B2B9D2 /* CIS698+CoreDataProperties.m */,
+				B1601AEC1BFCC8A200B2B9D2 /* CIS698.h */,
+				B1601AED1BFCC8A200B2B9D2 /* CIS698.m */,
 				B1601AB01BFCC04100B2B9D2 /* RubricGradingApp */,
 				B1601ACD1BFCC04300B2B9D2 /* RubricGradingAppTests */,
 				B1601AD81BFCC04300B2B9D2 /* RubricGradingAppUITests */,
@@ -105,14 +118,16 @@
 			children = (
 				B1601AB41BFCC04200B2B9D2 /* AppDelegate.h */,
 				B1601AB51BFCC04200B2B9D2 /* AppDelegate.m */,
-				B1601AB71BFCC04200B2B9D2 /* ViewController.h */,
-				B1601AB81BFCC04200B2B9D2 /* ViewController.m */,
-				B1601ABA1BFCC04200B2B9D2 /* Main.storyboard */,
+				B1601AF01BFCDFC100B2B9D2 /* MainRGA.storyboard */,
+				B1601AE71BFCC6FD00B2B9D2 /* CIS698TableViewController.h */,
+				B1601AE81BFCC6FD00B2B9D2 /* CIS698TableViewController.m */,
 				B1601AC01BFCC04200B2B9D2 /* Assets.xcassets */,
 				B1601AC21BFCC04200B2B9D2 /* LaunchScreen.storyboard */,
 				B1601AC51BFCC04300B2B9D2 /* Info.plist */,
 				B1601ABD1BFCC04200B2B9D2 /* RubricGradingApp.xcdatamodeld */,
 				B1601AB11BFCC04100B2B9D2 /* Supporting Files */,
+				B1601AF51BFD361B00B2B9D2 /* AddProjectViewController.h */,
+				B1601AF61BFD361B00B2B9D2 /* AddProjectViewController.m */,
 			);
 			path = RubricGradingApp;
 			sourceTree = "<group>";
@@ -250,8 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1601AC41BFCC04200B2B9D2 /* LaunchScreen.storyboard in Resources */,
+				B1601AF11BFCDFC100B2B9D2 /* MainRGA.storyboard in Resources */,
 				B1601AC11BFCC04200B2B9D2 /* Assets.xcassets in Resources */,
-				B1601ABC1BFCC04200B2B9D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1601AB91BFCC04200B2B9D2 /* ViewController.m in Sources */,
+				B1601AF71BFD361B00B2B9D2 /* AddProjectViewController.m in Sources */,
+				B1601AEE1BFCC8A300B2B9D2 /* CIS698+CoreDataProperties.m in Sources */,
 				B1601ABF1BFCC04200B2B9D2 /* RubricGradingApp.xcdatamodeld in Sources */,
 				B1601AB61BFCC04200B2B9D2 /* AppDelegate.m in Sources */,
+				B1601AEF1BFCC8A300B2B9D2 /* CIS698.m in Sources */,
 				B1601AB31BFCC04100B2B9D2 /* main.m in Sources */,
+				B1601AE91BFCC6FD00B2B9D2 /* CIS698TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B1601ABA1BFCC04200B2B9D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1601ABB1BFCC04200B2B9D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B1601AC21BFCC04200B2B9D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -419,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RubricGradingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gannon.edu.RubricGradingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RubricGradingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gannon.edu.RubricGradingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +453,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RubricGradingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gannon.edu.RubricGradingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +466,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RubricGradingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gannon.edu.RubricGradingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = RubricGradingAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gannon.edu.RubricGradingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = RubricGradingAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gannon.edu.RubricGradingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +519,7 @@
 				B1601AE01BFCC04300B2B9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1601AE11BFCC04300B2B9D2 /* Build configuration list for PBXNativeTarget "RubricGradingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				B1601AE31BFCC04300B2B9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1601AE41BFCC04300B2B9D2 /* Build configuration list for PBXNativeTarget "RubricGradingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				B1601AE61BFCC04300B2B9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

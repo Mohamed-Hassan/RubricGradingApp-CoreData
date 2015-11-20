@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="CIS698" representedClassName="CIS698" syncable="YES">
+        <attribute name="faculty1Email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faculty1Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faculty2Email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faculty2Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faculty3Email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faculty3Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faculty4Email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faculty4Name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facultyChairEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facultyChairName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studentEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studentName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CIS698" positionX="-63" positionY="-18" width="128" height="240"/>
+    </elements>
 </model>
